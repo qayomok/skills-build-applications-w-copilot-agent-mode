@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-va_j2jfv4=a!d%t1jy52a@uz=bebb@87awjx33)fd+jo)s-zr$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'organic-happiness-5pp9r765ppq29v5-8000.app.github.dev']
 
 
 # Application definition
@@ -157,3 +157,5 @@ CORS_ALLOW_METHODS = [
     'OPTIONS',
 ]
 CORS_ALLOW_HEADERS = ['*']
+
+USE_X_FORWARDED_HOST = True
